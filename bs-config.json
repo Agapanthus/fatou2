@@ -1,6 +1,0 @@
-{
-    "files": ["./public/**/*.{html,htm,css,js,ttf}"],
-    "server": {
-        "baseDir": "./public"
-    }
-}

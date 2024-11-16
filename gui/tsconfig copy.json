@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "lib": ["DOM"],
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+
+        "strictNullChecks": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "moduleResolution": "node"
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "vendor",
+        "server"
+    ],
+    "types": [
+        "webpack-env"
+    ]
+}
