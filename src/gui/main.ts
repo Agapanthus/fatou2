@@ -52,7 +52,7 @@ const presets = {
         y: 0.44646844758065846,
         iterations: 800,
     },
-    "Black Sun": {
+    "Black": {
         zoom: Math.pow(2, -22.6),
         x: 0.6958659321672108,
         y: 0.4464684050481072,
