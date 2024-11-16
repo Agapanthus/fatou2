@@ -1,0 +1,59 @@
+body {
+	font-family: Sans-Serif;
+	text-align: left;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+b { font-weight: bold; }
+i { font-style: italic; }
+italic { font-style: italic; }
+u { text-decoration: underline; }
+strike { text-decoration: stroke; }
+.strikethrough {
+  position: relative;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+hoch { vertical-align: super; font-size: 80%; }
+tief { vertical-align: sub; font-size: 80%; }
+q {
+	display: block;
+	margin: 0.25em 0;
+	padding: 0.25em 40px;
+	position: relative;
+	
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 1.45;
+}
+q:before {
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: 0;
+	top: -20px;
+	color: #CCC;
+}
+q cite {
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+q cite:before {
+	content: "\2014 \2009";
+}

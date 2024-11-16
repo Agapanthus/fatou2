@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"glsl-canvas.textures": {
+			"0": "https://skaliks.dev/blue%20noise.png",
+			"2": "https://skaliks.dev/hokusai.jpg"
+		},
+		"glsl-canvas.useCompactFormatter": false
+	}
+}

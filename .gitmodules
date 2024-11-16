@@ -1,0 +1,36 @@
+[submodule "fatou-desktop/third_party/glm"]
+	path = third_party/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "fatou-desktop/third_party/Vulkan-Hpp"]
+	path = third_party/Vulkan-Hpp
+	url = https://github.com/KhronosGroup/Vulkan-Hpp
+[submodule "fatou-desktop/third_party/VulkanMemoryAllocator"]
+	path = third_party/VulkanMemoryAllocator
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
+[submodule "fatou-desktop/third_party/filament"]
+	path = third_party/filament
+	url = https://github.com/google/filament.git
+[submodule "fatou-desktop/third_party/libwebp"]
+	path = third_party/libwebp
+	url = https://github.com/webmproject/libwebp.git
+[submodule "my-cef-project"]
+	path = third_party/cef-project
+	url = https://github.com/Agapanthus/cef-project.git
+[submodule "third_party/shaderc"]
+	path = third_party/shaderc
+	url = https://github.com/google/shaderc.git
+[submodule "third_party/sqlite"]
+	path = third_party/sqlite
+	url = https://github.com/sqlite/sqlite.git
+[submodule "third_party/sqlite-amalgamation"]
+	path = third_party/sqlite-amalgamation
+	url = https://github.com/azadkuh/sqlite-amalgamation.git
+[submodule "third_party/c-blosc"]
+	path = third_party/c-blosc
+	url = https://github.com/Blosc/c-blosc.git
+[submodule "third_party/brotli"]
+	path = third_party/brotli
+	url = https://github.com/google/brotli.git
+[submodule "third_party/vpp"]
+	path = third_party/vpp
+	url = https://github.com/nyorain/vpp

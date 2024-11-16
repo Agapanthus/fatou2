@@ -1,0 +1,13 @@
+node_modules
+*.map
+dist
+package-lock.json
+hide
+store/*.json
+build
+GPUCache
+*.webp
+public/*.js
+public/js/app.js.LICENSE.txt
+public/js/app.js
+legacy/shaders/cloudsOld/Testbild.png

@@ -1,0 +1,108 @@
+@import 'themeColors';
+
+#GUIBase {
+    position: fixed;
+    width: 0;
+    height: 0;
+    overflow: visible;
+    z-index: 10;
+    background: transparent;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    user-select: none;
+}
+
+.window {
+    border: solid 2px $themeColor-b2;
+    background: $themeColor-b1;
+    border-top: none;
+    overflow: auto;
+    box-sizing: border-box;
+
+    border-radius: 3px;
+    overflow: hidden;
+
+    .title {
+        font: $theme-font2;
+        background: $themeColor-b2;
+        border: none;
+        width: auto;
+        padding: 8px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        margin: 0;
+    }
+    .loader {
+        background: $themeColor-b3;
+        border: none;
+    }
+    .content {
+        background: transparent;
+        border: none;
+        .elem {
+            padding: 8px;
+        }
+        margin-top: 40px;
+        overflow-y: auto;
+        height: calc(100% - 40px);
+    }
+
+    .button {
+        padding: 3px;
+        margin: 2px;
+        background: #eee;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        display: inline-block;
+        
+        &:hover {
+            background: rgb(184, 236, 104);
+        }
+    }
+
+    .slider-con {
+        width: 100%;
+        //padding: 10px 0;
+        margin: 0;
+
+        &.default-value {
+            opacity: 0.3;
+        }
+
+        .slider-title {
+            padding: 0 10px;
+            padding-bottom: 1px;
+            span {                
+                color: grey;
+                background: rgb(204, 211, 253);
+                padding: 5px;
+                margin-left: 0.5em;
+                font-size: 70%;
+            }
+            
+
+    .defaults {
+        display: inline-block;
+        color: rgb(156, 156, 156);
+        background: rgb(230, 230, 230);
+        border-radius: 10px;
+        padding: 5px;
+        margin-left: 0.5em;
+        font-size: 70%;
+        cursor: pointer;
+        &:hover {
+            color: rgb(46, 46, 46);
+            background: #ccc;
+        }
+        
+    }
+        }
+
+        .slider {
+            width: 90%; 
+            height: 25px; 
+        }
+    }
+}

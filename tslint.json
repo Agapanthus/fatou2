@@ -1,0 +1,24 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "no-console": false,
+        "no-consecutive-blank-lines": false,
+        "member-ordering": false,
+        "no-trailing-whitespace": false,
+        "max-classes-per-file": false,
+        "eofline": false,
+        "ordered-imports": false,
+        "comment-format": false,
+        "arrow-parens": false,
+        "whitespace": false,
+        "trailing-comma": false,
+        "no-bitwise": false,
+        "curly": false,
+        "no-empty": false,
+        "quotemark": false,
+        "prefer-const": { "severity": "warning" },
+        "max-line-length": false,
+        "no-var-requires": false,
+        
+    }
+}
